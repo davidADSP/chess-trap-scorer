@@ -1,0 +1,4 @@
+archive/
+.ipynb_checkpoints/
+__pycache__/
+.python-version
