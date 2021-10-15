@@ -73,7 +73,7 @@ class TrapScorer():
         print("Shock:\t\t", "{:+.2%}".format(self.shock), "({:.2%}".format(self.previous_potency), "->", "{:.2%})".format(self.potency))
         print("Potency:\t", "{:.2%}".format(self.potency), 'CI', ["{:.2%}".format(x) for x in self.potency_range], "(95%)")
         print()
-        print(f"Score:\t\t","{:.2%}".format(self.score), "( =", "{:.2%}".format(self.av_likelihood), "*", "{:.2%}".format(self.potency), ")")
+        print(f"Trap Score:\t","{:.2%}".format(self.score), "( =", "{:.2%}".format(self.av_likelihood), "*", "{:.2%}".format(self.potency), ")")
 
 
 def main(args):

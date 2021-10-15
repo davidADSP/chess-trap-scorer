@@ -145,6 +145,10 @@ class Node():
                 move_uci = 'e8h8'
             elif move.uci() == 'e1g1':
                 move_uci = 'e1h1'
+            elif move.uci() == 'e8c8':
+                move_uci = 'e8a8'
+            elif move.uci() == 'e1c1':
+                move_uci = 'e1a1'
             else:
                 move_uci = move.uci()
 

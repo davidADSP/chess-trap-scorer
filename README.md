@@ -30,18 +30,18 @@
 
 <!-- TABLE OF CONTENTS -->
 
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+<summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+<ol>
+  <li>
+    <a href="#about-the-project">About The Project</a>
+  </li>
+  <li>
+    <a href="#getting-started">Getting Started</a>
+  </li>
+  <li><a href="#license">License</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#acknowledgements">Acknowledgements</a></li>
+</ol>
 
 
 
@@ -69,9 +69,9 @@ A good trap should be deadly once your opponent has fallen into it!
 
 ---
 
-🎯 <b>Overall score</b>
+🎯 <b>Trap score</b>
 
-The overall score for a given pgn input is the product of these two scores.
+The trap score for a given pgn input is the product of these two scores.
 
 For more information, see the accompanying [blog post](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717).
 
@@ -134,10 +134,10 @@ Total games:	1670 <- Number of lichess games where this move has been played
 Shock:		    +43.21% (52.42% -> 95.63%) <- The delta of the win likelihood before and after this move
 Potency:	    95.63% CI ['94.65%', '96.61%'] (95%) <- The % chance of winning after this move with confdience interval
 
-Score:		    41.72% ( = 43.63% * 95.63% ) <- the product of the Av Move Prob and Potency
+Trap Score:		    41.72% ( = 43.63% * 95.63% ) <- the product of the Av Move Prob and Potency
 ```
 
-The higher the overall score, the better the trap!
+The higher the trap score, the better the trap!
 
 ### Jupyter notebook
 
@@ -180,6 +180,6 @@ Thanks to all the great chess content creators out there - here's three of the b
 [issues-shield]: https://img.shields.io/github/issues/davidADSP/chess-trap-scorer.svg?style=for-the-badge
 [issues-url]: https://github.com/davidADSP/chess-trap-scorer/issues
 [license-shield]: https://img.shields.io/github/license/davidADSP/chess-trap-scorer.svg?style=for-the-badge
-[license-url]: https://github.com/davidADSP/chess-trap-scorer/blob/master/LICENSE.txt
+[license-url]: https://github.com/davidADSP/chess-trap-scorer/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/davidtfoster
