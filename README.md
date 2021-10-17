@@ -73,7 +73,7 @@ A good trap should be deadly once your opponent has fallen into it!
 
 The trap score for a given pgn input is the product of these two scores.
 
-For more information, see the accompanying [blog post](https://medium.com/applied-data-science/how-to-train-ai-agents-to-play-multiplayer-games-using-self-play-deep-reinforcement-learning-247d0b440717).
+For more information, see the accompanying [blog post](https://adsp.ai/articles/chess-trap-scorer/).
 
 Have fun!
 
