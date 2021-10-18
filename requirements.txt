@@ -1,1 +1,3 @@
 chess
+requests
+scipy
