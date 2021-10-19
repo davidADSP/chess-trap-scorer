@@ -104,7 +104,7 @@ To get a local copy up and running, follow these simple steps.
 To score a given opening, simply use the following command, with the pgn of your choice.
 
    ```sh
-   python3 solver.py --pgn '1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Bg5'
+   python3 scorer.py --pgn '1. e4 e5 2. Nf3 Nf6 3. Nxe5 Nc6 4. Nxc6 dxc6 5. d3 Bc5 6. Bg5'
    ```
 
 The [lichess opening API](https://lichess.org/api) is used to gather data for the analysis. No token is required.
